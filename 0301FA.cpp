@@ -16,5 +16,5 @@ int main(){
 	T = 1.0*t/CLOCKS_PER_SEC;
 	printf("The final value a = %f\nTotal multiple time = %d\nTime when doing one time = %e\nHow many times per sec = %f\n",a,t,T/M,M/T);
 	
-	
+	return 100;
 }
