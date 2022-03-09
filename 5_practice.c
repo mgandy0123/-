@@ -9,18 +9,18 @@ int main() {
 	time_t t;
 
 	// Input the number N
-	
-	
+	printf("number N = ");
+	scanf("%d", &N);
 	// Locate the memory for x, yr, yi;
-
+	x = (double *) malloc(N*sizeof(double));
+	y = (double *) malloc(N*sizeof(double));
 	// Initial setting for x, for example, x[k] = k
-	
-	
-	
-	
+	for (k=0;k<N;++k) {
+		x[k] = k
+	}
 	t = clock();	
 	// yr[n]+i*yi[n] = sum(exp(-i 2 Pi k n / N)*x[k], k=0..N-1), n=0..N-1 
-
+	
 
 
 
